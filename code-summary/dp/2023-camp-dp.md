@@ -4,7 +4,7 @@
 
 ​		f[i] [j] 表示考虑1...i 的排列，逆序对数目恰好为 j 的方案有多少个。第i+1个可以放在任意的位置，逆序对数量加[0...n-1]的某一个值
 
-​		递推式:![image-20230319131320783](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20230319131320783.png)
+​		递推式:![image-20230319131320783](![image](https://user-images.githubusercontent.com/100915964/226166797-a16334bb-7a7f-454d-87ef-ca37a3e421eb.png))
 
 ​		复杂度：O（n * k * min(n , k) )		
 
